@@ -8,6 +8,7 @@ body {
     padding: 0;
     text-decoration: none;
     outline: none;
+    border: none;
     color: #000;
 }
 .container {
@@ -218,6 +219,84 @@ a .btn2{
     rotate: -30deg;
 }
 
+
+/*! FOOTER BLOCK =============================================================  */
+.footer {
+    width: 100%;
+    height:auto;
+    padding: 100px 0;
+    background: blanchedalmond;
+    display: flex;
+    align-items: center;
+}
+.footer__inner {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column a{
+    margin-top: 20px;
+    transition: .2s;
+}
+
+.footer-column a:hover{
+    opacity: .5;
+}
+
+.footer-column img{
+    width: 40px;
+    margin-bottom: 20px;
+}
+.column-title {
+    padding-left: 5px;
+    border-left: 3px solid goldenrod;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.column-menu__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.footer-left-menu {
+    display: flex;
+    flex-direction: column;
+}
+.footer-right-menu {
+    display: flex;
+    flex-direction: column;
+}
+.footer-text {
+    font-weight: 300;
+}
+.question__inner form {
+    display: flex;
+}
+
+.question__inner input{
+    padding: 15px 10px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.btn-submit {
+    padding: 15px 10px;
+    border-radius: 0px 20px 20px 0px;
+    background-color: rgb(0, 72, 255);
+    color: #fff;
+    transition: .2s;
+}
+
+.btn-submit:hover{
+    background-color: red;
+}
 
 
 /*! MEDIA SCREENS =============================================================  */
