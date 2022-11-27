@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    color: #000;
+}
+.container {
+    max-width: 90%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*! HEADER BLOCK =============================================================  */
+.header {
+    width: 100%;
+    height: auto;
+    background-color: navajowhite;
+}
+
+.header__inner {
+    display: flex;
+    height: auto;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px 15px;
+    
+}
+
+.header-logo {
+    transition: .2s;
+}
+
+.header-logo:hover{
+    opacity: .7;
+}
+
+.header-logo img {
+    width: 120px;
+}
+.nav {
+    height: auto;
+    width: auto;
+}
+
+.nav a {
+    font-weight: 400;
+    font-size: 18px;
+    transition: .2s;
+}
+
+.nav a:not(:last-child){
+    margin-right: 20px;
+}
+
+.nav a:hover{
+    
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+}
+
+.nav a:visited {
+    color: gray;
+}
+
+.nav a:visited:hover{
+    border-bottom: 2px solid red;
+}
+
+
+/*! INTRO BLOCK =============================================================  */
+.intro {
+    width: 100%;
+    height: 100%;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.intro__content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.intro-left {
+    width: 45%;
+}
+.intro-up__inner {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.intro-up__inner img {
+    width: 20px;
+}
+.intro-slogan {
+    font-weight: 300;
+    font-size: 20px;
+}
+.intro-title {
+    font-size: 50px;
+    margin: 30px 0;
+    font-weight: 900;
+}
+.intro-text {
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+.intro-btns {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 30px 20px;
+    border: 2px solid blue;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.btn1 {
+    background-color: blue;
+    color: #fff;
+}
+
+a .btn2{
+    color: #000;
+}
+.intro-right {
+    width: auto;
+}
+
+.intro-right img{
+    width: 500px;
+}

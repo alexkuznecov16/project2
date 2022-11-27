@@ -7,19 +7,22 @@
     <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/1176/1176562.png" type="image/x-icon">
     <title>Lorem ipsum</title>
     <link rel="stylesheet" href="style/style.css">
+    <script src="https://kit.fontawesome.com/39bbe9b596.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="header">
         <div class="container">
             <div class="header__inner">
                 <div class="header-logo">
-                    <img src="https://cdn-icons-png.flaticon.com/512/1176/1176562.png" alt="logo">
+                    <a href="#">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1176/1176562.png" alt="logo">
+                    </a>
                 </div>
                 <nav class="nav">
-                    <a href="#">HOME</a>
-                    <a href="#">SERVICES</a>
-                    <a href="#">TEAM</a>
-                    <a href="#">CONTACTS</a>
+                    <a href="index.html">HOME</a>
+                    <a href="services.html">SERVICES</a>
+                    <a href="team.html">TEAM</a>
+                    <a href="contacts.html">CONTACTS</a>
                 </nav>
             </div>
         </div>
@@ -28,8 +31,8 @@
     <!-- /.header -->
     
     <main class="intro">
-        <div class="container">
-            <div class="intro__content">
+        <div class="intro__content">
+            <div class="intro-left">
                 <div class="intro-up__inner">
                     <p class="intro-slogan"> A atque eius illum!</p>
                     <img src="img/advocat.png" alt="Lawyer">
@@ -39,12 +42,14 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius iusto vel provident animi! Cumque, voluptate!
                 </p>
                 <div class="intro-btns">
-                    <a href="mailto:anonim@gmail.com">Ask question</a>
-                    <a href="#">Choose a lawyer</a>
+                    <a class="btn btn1" href="mailto:anonim@gmail.com">Ask question</a>
+                    <a class="btn btn2" href="team.html">Choose a lawyer <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
+            <div class="intro-right">
+                <img src="img/law-gea349c6ce_1280.jpg" alt="lawyer agency">
+            </div>
         </div>
-        <!-- /.container -->
     </main>
     <!-- /.intro -->
 </body>
