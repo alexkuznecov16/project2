@@ -169,7 +169,58 @@ a .btn2{
 }
 
 
+/*! ABOUTBLOCK =============================================================  */
+.about {
+    width: 100%;
+    height: 100%;
+    background-color: beige;
+    padding: 100px 0 50px 0;
+}
+.about-title {
+    padding-left: 5px;
+    border-left: 3px solid goldenrod;
+    font-weight: 600;
+}
+.about__inner {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.about-left {
+    width: 60%;
+}
 
+.about-text1{
+    margin: 30px 0;
+}
+.about-text2{
+    width: 45%;
+}
+.about-text3{
+    width: 45%;
+}
+.about-subtitle {
+    font-size: 30px;
+    margin-top: 20px;
+}
+.about-text-down__inner {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+.about-right img {
+    width: 350px;
+    transition: .2s;
+}
+
+.about-right img:hover{
+    rotate: -30deg;
+}
+
+
+
+/*! MEDIA SCREENS =============================================================  */
 @media screen and (max-width:1440px){
     .btn {
         font-size: 15px;
@@ -178,6 +229,12 @@ a .btn2{
 
     .intro-btns {
         width: 100%;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:980px){
+    .about__inner{
         justify-content: center;
     }
 }
@@ -224,6 +281,10 @@ a .btn2{
 
     .intro-right img{
         width: 230px;
+    }
+
+    .about-right img{
+        width: 200px;
     }
 }
 
