@@ -195,10 +195,11 @@ a .btn2{
     margin: 30px 0;
 }
 .about-text2{
-    width: 45%;
+    /* width: 45%; */
 }
 .about-text3{
-    width: 45%;
+    /* width: 45%; */
+    margin-top: 20px;
 }
 .about-subtitle {
     font-size: 30px;
@@ -343,7 +344,7 @@ a .btn2{
 
 @media screen and (max-width:580px) {
     .footer__inner{
-        justify-content: center;
+        justify-content: center !important;
     }
 
     .column-info{
@@ -385,7 +386,10 @@ a .btn2{
     }
 
     .about-right img{
-        width: 200px;
+        width: 140px;
+    }
+    .about-subtitle {
+        font-size: 18px;
     }
 }
 
@@ -404,5 +408,19 @@ a .btn2{
 @media screen and (max-width: 220px) {
     .intro-right img{
         width: 150px;
+    }
+    .question__inner input, .question__inner button{
+    padding: 7px 3px;
+    font-size: 8px;
+    }
+}
+
+@media screen and (max-width:178px){
+    .column-menu__inner {
+        justify-content: center;
+    }
+
+    .column-contacts {
+        font-size: 12px;
     }
 }
