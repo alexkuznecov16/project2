@@ -68,22 +68,17 @@ body {
     border-bottom: 2px solid black;
 }
 
-.nav a:visited {
-    color: gray;
-}
-
-.nav a:visited:hover{
-    border-bottom: 2px solid red;
-}
-
 
 /*! INTRO BLOCK =============================================================  */
+/** Intro block settings  */
 .intro {
     width: 98%;
     height: 100%;
     padding-top: 150px;
     padding-bottom: 150px;
 }
+
+/** Intro content wrapper  */
 .intro__content {
     display: flex;
     flex-flow: row wrap;
@@ -91,23 +86,14 @@ body {
     align-items: center;
 
 }
+
+/** Content wrapper left and right side  */
+/*? Left  --------------------*/
 .intro-left {
     width: 45%;
 }
-.intro-up__inner {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    width: 40%;
-}
 
-.intro-up__inner img {
-    width: 20px;
-}
-.intro-slogan {
-    font-weight: 300;
-    font-size: 20px;
-}
+/*? Intro inner text  */
 .intro-title {
     font-size: 50px;
     margin: 30px 0;
@@ -118,6 +104,8 @@ body {
     font-weight: 300;
     margin-bottom: 50px;
 }
+
+/*? Intro btns  */
 .intro-btns {
     display: flex;
     justify-content: space-between;
@@ -133,6 +121,10 @@ body {
     transition: .3s;
 }
 
+a .btn2{
+    color: #000;
+}
+
 .btn1 {
     background-color: blue;
     color: #fff;
@@ -143,62 +135,81 @@ body {
     color: #000;
 }
 
-a .btn2{
-    color: #000;
-}
-
 .btn2:hover {
     background-color: blue;
     color: #fff;
 }
 
-
+/*? Right  --------------------*/
 .intro-right {
     width: auto;
 }
 
+/** Right side img  */
 .intro-right img{
     width: 500px;
     box-shadow: 2px 2px 30px green;
     transition: .2s;
 }
 
+/** img hover effects  */
 .intro-right img:hover{
     width: 500px;
     box-shadow: -2px -2px 30px red;
     rotate: 15deg;
 }
 
+/** Intro inner */
+.intro-up__inner {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.intro-up__inner img {
+    width: 20px;
+}
+
+.intro-slogan {
+    font-weight: 300;
+    font-size: 20px;
+}
+
 
 /*! ABOUTBLOCK =============================================================  */
+/** About block settings  */
 .about {
     width: 100%;
     height: 100%;
     background-color: beige;
     padding: 100px 0 50px 0;
 }
+
+/** Block title  */
 .about-title {
     padding-left: 5px;
     border-left: 3px solid goldenrod;
     font-weight: 600;
 }
+
+/** Block inner  */
 .about__inner {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
 }
+
+/*? Left  */
 .about-left {
     width: 60%;
 }
-
 .about-text1{
     margin: 30px 0;
 }
 .about-text2{
-    /* width: 45%; */
 }
 .about-text3{
-    /* width: 45%; */
     margin-top: 20px;
 }
 .about-subtitle {
@@ -211,6 +222,8 @@ a .btn2{
     margin-top: 40px;
     justify-content: space-between;
 }
+
+/*? Right  */
 .about-right img {
     width: 350px;
     transition: .2s;

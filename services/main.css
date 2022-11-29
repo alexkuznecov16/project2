@@ -1,0 +1,33 @@
+.services {
+    width: 100%;
+    height: auto;
+    padding: 150px 0;
+}
+.services__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.service-item {
+    width: 300px;
+    margin: 20px 15px 0 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.service-logo {
+    width: 100px;
+    margin: 0 auto;
+}
+.service-title {
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.service-text {
+    margin-bottom: 15px;
+}
+.service-item a{
+    color: rgb(218, 32, 32);
+    font-weight: 500;
+    font-size: 20px;
+}
