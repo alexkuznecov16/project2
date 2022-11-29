@@ -30,4 +30,9 @@
     color: rgb(218, 32, 32);
     font-weight: 500;
     font-size: 20px;
+    transition: .3s;
+}
+
+.service-item a:hover {
+    opacity: .5;
 }
