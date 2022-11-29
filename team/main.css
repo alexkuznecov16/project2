@@ -1,0 +1,111 @@
+/*! BODY BLOCK =============================================================  */
+.team {
+    padding: 150px 0;
+}
+
+.members{text-align: center;padding-bottom: 20px;}
+
+.law{padding: 10px; display: inline-block;}
+.law_img{height: 80e;width: 80e; border-radius: 10px;}
+.law_name{padding:0px;background: none;}
+.law_text{font-size: small;text-align:center;padding-top:10px}
+#law_link{
+    display: none;
+    width: 200px;
+    height: 15px;
+    border:1px solid #CCC;
+    background:#EEE;
+  border-radius: 20px;}
+  #law_link{transition: 2s;}
+  #law_link:target {
+    display: block;
+  }
+  .law_close{font-size: small;color: red;}
+
+  .law2{padding: 10px; display: inline-block;}
+.law_img2{height: 80e;width: 80e; border-radius: 10px;}
+.law_name2{padding:0px;background: none;}
+.law_text2{font-size: small;text-align:center;padding-top:10px}
+#law_link2{
+    display: none;
+    width: 200px;
+    height: fit-content;
+    border:1px solid #CCC;
+    background:#EEE;
+  border-radius: 20px;}
+  #law_link2{transition: 2s;}
+
+  #law_link2:target {
+    display:block;
+  }
+  .law_close2{font-size: small;color: red;padding-left: 10px;}
+
+  .law3{padding: 10px; display: inline-block;}
+.law_img3{height: 80e;width: 80e; border-radius: 10px;}
+.law_name3{padding:0px;background: none;}
+.law_text3{font-size: small;text-align:center;padding-top:10px}
+#law_link3{
+    display: none;
+    width: 200px;
+    height: 15px;
+    border:1px solid #CCC;
+    background:#EEE;
+  border-radius: 20px;}
+  #law_link3{transition: 2s;}
+
+  #law_link3:target {
+    display:flex;
+  }
+
+  .law4{padding: 10px; display: inline-block;}
+  .law_img4{height: 80e;width: 80e; border-radius: 10px;}
+  .law_name4{padding:0px;background: none;}
+  .law_text4{font-size: small;text-align:center;padding-top:10px}
+  #law_link4{
+      display: none;
+      width: 200px;
+      height: 15px;
+      border:1px solid #CCC;
+      background:#EEE;
+    border-radius: 20px;}
+    #law_link4{transition: 2s;}
+  
+    #law_link4:target {
+      display:flex;
+    }
+
+    .law5{padding: 10px; display: inline-block;}
+.law_img5{height: 80e;width: 80e; border-radius: 10px;}
+.law_name5{padding:0px;background: none;}
+.law_text5{font-size: small;text-align:center;padding-top:10px}
+#law_link5{
+    display: none;
+    width: 200px;
+    height: 15px;
+    border:1px solid #CCC;
+    background:#EEE;
+  border-radius: 20px;}
+  #law_link5{transition: 2s;}
+
+  #law_link5:target {
+    display:flex;
+  }
+
+      .lawyer {
+        margin: 20px;
+      }
+      
+
+
+/*! MEDIA SCREEN  */
+@media screen and (max-width: 376px){
+    .lawyer img{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 219px){
+    .lawyer img{
+        width: 150px;
+    }
+}
