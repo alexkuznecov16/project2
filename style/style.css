@@ -154,7 +154,6 @@ a .btn2{
 
 /** img hover effects  */
 .intro-right img:hover{
-    width: 500px;
     box-shadow: -2px -2px 30px red;
     rotate: 15deg;
 }
