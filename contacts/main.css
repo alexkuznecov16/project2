@@ -47,7 +47,7 @@
 }
 
 /*! MEDIA SCREENS ===================================================  */
-@media screen and (max-width:1070px) {
+@media screen and (max-width:1068px) {
     .contacts__inner {
         justify-content: center;
     }
@@ -66,14 +66,14 @@
 @media screen and (max-width: 695px){
     .contacts-map {
         width: 400px;
-        height: 200px;
+        height: 300px;
     }
 }
 
 @media screen and (max-width: 340px){
     .contacts-map {
         width: 200px;
-        height: 200px;
+        height: 250px;
     }
     .contacts-form textarea {
         width: 170px;
@@ -84,8 +84,8 @@
 
 @media screen and (max-width: 265px){
     .contacts-map {
-        width: 150px;
-        height: 100px;
+        width: 180px;
+        height: 180px;
     }
 }
 
